@@ -15,6 +15,11 @@ import vo.*;
 public class Calculation {
 
 	static CafeStorage cafeStorage = CafeStorage.getStorgeInstance();
+	
+	public Calculation() {
+		
+		
+	} // constructor
 
 	public static void calculate(User user) throws UserDefinedRuntimeException {
 		log.trace("calculate({}) invoked", user);
